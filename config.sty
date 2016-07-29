@@ -12,16 +12,20 @@
 % For (Name, 2002) - Style comments: 
 
 
-\usepackage[backend=bibtex,     % needed for compilation
-  style=numeric,   %  authoryear-comp maybe?
+\usepackage[%
+  backend=bibtex,        % needed for compilation
+  style=numeric,         % authoryear-comp maybe?
   sorting=none,
-            %% url=true,          %
-            %% maxbibnames=99,     %
-            %% doi=true,           %
-            %% maxcitenames=2,     %
-            %% dashed=false,        %  (1)
-           ]{biblatex}
-
+  minbibnames=5,
+  maxbibnames=5,
+  defernumbers=true,
+  firstinits=true
+  %% url=true,           %
+  %% maxbibnames=99,     %
+  %% doi=true,           %
+  %% maxcitenames=2,     %
+  %% dashed=false,       %  (1)
+]{biblatex}
 
 % (1): no dash for same authors in biblography: 
 %      
